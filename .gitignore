@@ -1,5 +1,6 @@
 books/ 
 application/config/database.php
 application/logs/
-uploads/
 .htaccess
+# Exams build: DB backup for phpMyAdmin import (contains real data)
+exams-db-backup.sql*

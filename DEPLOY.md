@@ -80,9 +80,9 @@ Claude/the developer and set it for this app's connection only.
 ## 3. Code
 
 ```bash
-sudo git clone https://github.com/techiemithlesh/futurecampus /var/www/html/exams
+sudo git clone https://github.com/techiemithlesh/exams.git /var/www/html/exams
 cd /var/www/html/exams
-sudo git checkout <branch-with-exams-changes>
+git config --global --add safe.directory /var/www/html/exams
 ```
 
 Upload the files that aren't in git:
