@@ -1,0 +1,5 @@
+# Local DB dumps contain real data; never commit them
+*.sql
+*.sql.gz
+*.txt
+*.bak
